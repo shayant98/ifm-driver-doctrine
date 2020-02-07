@@ -1,0 +1,24 @@
+{
+    "name": "shayantTelesur/IFM-Driver-Doctrine",
+    "description": "Informix Platform for Doctrine DBAL",
+    "keywords": ["informix", "doctrine", "dbal", "database", "persistence", "queryobject"],
+    "homepage": "http://www.github.com/shayant98",
+    "license": "MIT",
+    "authors": [
+        {"name": "Shayant Sital", "email": "shayant.sital@telesur.sr", "role": "monkey hitting keys"}
+    ],
+    "require": {
+        "doctrine/dbal": "^2.10"
+    },
+    "require-dev": {
+        "ext-pdo_sqlite": "*",
+        "phpunit/phpunit": "^6.3",
+        "symfony/console": "2.*||^3.0"
+    },
+    "autoload": {
+        "psr-0": { "Doctrine\\DBAL\\": "lib/" }
+    },
+    "archive": {
+        "exclude": ["!vendor", "tests", "*phpunit.xml*", "build.xml"]
+    }
+}
