@@ -1,5 +1,5 @@
 {
-    "name": "shayantTelesur/IFM-Driver-Doctrine",
+    "name": "shayantTelesur/ifm-driver-doctrine",
     "description": "Informix Platform for Doctrine DBAL",
     "keywords": ["informix", "doctrine", "dbal", "database", "persistence", "queryobject"],
     "homepage": "http://www.github.com/shayant98",
